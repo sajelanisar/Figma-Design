@@ -1,0 +1,678 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1410px;
+    margin: 0 auto;
+}
+
+header
+{
+/*    background-color: rgb(255, 255, 255);*/
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+}
+
+.section-title{
+    font-size: 32px;
+    color: ;
+    font-weight: 500;
+    line-height: ;
+}
+
+.section-text{
+    font-size: 32px;
+    color: ;
+    font-weight: 500;
+    line-height: ;
+}
+
+header .navbar
+{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+    margin: 13px;
+}
+
+.navbar .menu-links
+{
+    display: flex;
+    list-style: none;
+    gap: 35px;
+}
+
+.navbar a
+{
+
+    font-family: "Roboto", sans-serif;
+    color: #000;
+    text-decoration: none;s
+    
+}
+
+.navbar .social
+{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.navbar .social a i
+{
+   color: #0077B5;
+}
+
+.number{
+    gap: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.number i
+{
+    color: #0081C4;
+}
+
+.number div .one 
+{
+    font-weight: 500;
+}
+
+.navbar button
+{
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    width: 151px;
+    padding: 16px;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    background-color:  #0077B5;
+    
+}
+
+.navbar .onee
+{
+    gap: 10px;
+}
+
+/*** Banner Section Start Styling ***/
+.banner
+{
+    padding: 30px;
+    margin: 0;
+    background-color: #F4FBFF;
+    display: flex;
+ 
+}
+
+.banner .box
+{
+    width: 50%;
+}
+
+.banner .box button
+{
+    width: 160px;
+    margin-left: 45px;
+    padding: 12px;
+    border-radius: 100px;
+    border: none;
+    color: #fff;
+    background-color:  #0077B5;
+}
+
+.banner .box .btn
+{
+    width: 151px;
+    padding: 10px;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: 500;
+    background-color: #0077B5;
+    margin: 6px;
+}
+
+.banner .box .text
+{
+    margin-left: 50px;
+}
+
+.banner .box .text h2
+{
+    font-size: 55px;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+}
+
+.banner .box .text p
+{
+    font-family: "Roboto", sans-serif;
+    color: #6D6D6D;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.banner .box img
+{
+    height: 572px;
+}
+
+
+.banner .box .button
+{
+    text-align: center;
+    display: flex;
+    padding-left: 45px;
+}
+
+.banner .box .button a
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.banner .box .button .btn1 a
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #000000;
+}
+
+.banner .box .btn1
+{
+    width: 151px;
+    padding: 10px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 16px;
+    border-radius: 100px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 6px;
+}
+
+
+
+
+
+
+
+/*** How Can we help Section Start***/
+.first
+{
+    padding: 30px;
+    display: flex;
+}
+
+.first .heading h2
+{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    text-align: center;
+   
+}
+
+
+.first .box
+{ 
+}
+
+.first .box .box1
+{
+    float: left;
+    width: 50%;
+}
+
+.first .box .box1 img
+{
+    width: 80%;
+}
+
+.first .box .box .text
+{
+    width: 40%;
+}
+
+.first .box .box1 .text p 
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #6D6D6D;
+}
+
+.first .box .box1 .text p a
+{
+    text-decoration: none;
+    color: #1b73e7;
+}
+
+.main1 .sub1 .und img
+{
+    width: 60px;
+    Top: 2574px;
+    Left: 89px;
+    Border:3px;
+}
+
+
+/*** SECOND AREA OF PRACTICE SECTION STYLING START **/
+.second
+{
+    padding: 20px;
+    background-color: #F9F9F9;
+   
+}
+
+.second .box
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+
+}
+.second .heading h2
+{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    text-align: center;
+
+}
+
+.second .box .box1
+{
+    padding: 15px;
+    background: #ffffff;
+    color: #000;
+    width: 300px;
+    text-align: center;
+
+}
+
+
+
+.icon img
+{
+    width: 84px;
+   
+}
+
+.loog{
+    display: flex;
+    justify-content: center;
+}
+
+.icon{
+    inline-size: 120px;
+	block-size: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background-color: #EFFAFF;
+}
+
+.second .box .box1 h2
+{   
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    text-align: center;
+}
+
+.second .box .box1 p
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #6D6D6D;
+}
+
+.second .box .box1 a
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #0081C4;
+    text-decoration: none;
+}
+
+
+/**** Center Section Styling Start***/
+.center
+{
+    margin: 0;
+    background: #0081C4;
+    height: 180px;
+}
+
+.center .text
+{
+    padding: 20px;
+    text-align: center;
+    justify-self: center;
+}
+
+.center .text p
+{
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+.center .text button
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    width: 160px;
+    padding: 12px;
+    border-radius: 100px;
+    border: none;
+    color: #0081C4;
+    background-color:  #fff;
+}
+/**** Four Section Styling Start ***/
+.main1
+{
+    padding: 30px;
+    display: flex;
+    height: 470px;
+    background-color: #F9F9F9;
+    
+}
+
+.main1 .sub1
+{
+
+    width: 50%;
+    margin: 20px;
+
+}
+
+.main1 .sub1 h2
+{
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+}
+
+.main1 .sub1 p
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #6D6D6D;
+}
+
+.main1 .sub1  img
+{
+    width: 100%;
+}
+
+.main1 .sub1 a
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #0081C4;
+}
+
+.main1 .sub1 .und img
+{
+    width: 60px;
+    Top: 2574px;
+    Left: 89px;
+    Border:3px;
+}
+
+
+
+/*** Third Section Styling Start***/
+.main
+{
+    padding: 30px;
+    display: flex;
+    /* background-color: antiquewhite; */
+}
+
+.main .sub
+{
+    width: 50%;
+    margin: 10px;
+  
+}
+
+.main .sub h2
+{
+    
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+}
+
+.main .sub .und img
+{
+    width: 60px;
+    Top: 2574px;
+    Left: 89px;
+    Border:3px;
+}
+
+.main .sub p
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #6D6D6D;
+}
+
+.main .sub img
+{
+   
+    width: 100%;
+}
+
+.main .sub a
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #0081C4;
+}
+
+
+
+
+/**** Five Section Styling Start ****/
+.main2
+{
+    padding: 30px;
+    display: flex;
+    height: 470px;
+}
+
+.main2 .sub2
+{
+    width: 50%;
+    margin: 10px;
+}
+
+.main2 .sub2 h2
+{
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+}
+
+.main2 .sub2 p
+{
+    margin-top: 20px;
+    color: #6D6D6D;
+}
+
+.main2 .sub2 img
+{
+   
+    width: 100%;
+}
+
+.main2 .sub2 a
+{
+    text-decoration: none;
+    color: #0081C4;
+}
+
+/*** SEction eight Styling Start***/
+.main5
+{
+    margin-left: 10px;
+    padding: 30px;
+    /* background-color: rgb(134, 155, 174); */
+    
+}
+
+.main5 .box5
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    
+}
+
+.main5 .box5 .sub5
+{
+    width: 40%;
+    
+    
+    
+}
+
+.main5 .heading5
+{
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    font-size: 20px;
+   
+}
+.sub5 h5
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    color: #6D6D6D;
+}
+
+.main5 .box5 .sub5 h3
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.main5 .box5 .sub5 p
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #6D6D6D;
+}
+
+.main5 .box5 .sub5 a
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #1b73e7;
+}
+
+/**** Footer Section Styling Start ****/
+.footer1
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer1 .boxfooter 
+{
+    gap: 80px;
+    display: flex;
+}
+
+.footer1 .boxfooter .box h3
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+}
+
+.footer1 .boxfooter .box p
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    text-align: left;
+}
+
+.footer1 .boxfooter .box
+{
+   
+    width: 50%;
+    float: right;
+}
+
+.footer1 .boxfooter .box a
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: black;
+    text-decoration: none;
+    line-height: 30px;
+}
+
+.footer1 .boxfooter .box
+{
+    color: black;
+}
+
+.footer1 p
+{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    text-align: center;
+    color: black;
+}
+
+hr.new1
+{
+    border-top: 1px solid #F1F1F1;
+}
+
+.boxfooter .new2
+{
+    border-top: 1px solid #F1F1F1;
+}
+
+
+/**** Media Queries Start ***/
+
+
+
+
+
+
+
+
+
